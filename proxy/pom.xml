@@ -9,7 +9,6 @@
         <version>3.3.0</version>
         <relativePath/>
     </parent>
-
     <groupId>co.escuelaing</groupId>
     <artifactId>proxy</artifactId>
     <version>1.0-SNAPSHOT</version>

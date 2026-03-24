@@ -31,10 +31,10 @@ public class Proxy {
     private String forward(String server_1, String server_2, String param){
         String value;
         try {
-            value = call(SERVER_1 + param);
+            value = call(server_1 + param);
         } catch (IOException e1) {
             try {
-                value = call(SERVER_2 + param);
+                value = call(server_2 + param);
             } catch (IOException e2) {
                 throw new RuntimeException();
             }
